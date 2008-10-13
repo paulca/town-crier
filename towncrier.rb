@@ -12,7 +12,7 @@ class TownCrier
     end
     
     def hour
-      time.hour
+      time.strftime("%l")
     end
     
     def date_formatted
