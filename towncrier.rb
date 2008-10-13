@@ -20,7 +20,7 @@ class TownCrier
     
     def message
       return "It's midnight on a new day, #{date_formatted}#{seasonal_greeting}" if hour == 0
-      "It's #{hour} o'clock. "
+      "#{hour} o'clock and all's well! "
     end
     
     def seasonal_greeting
