@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'twitter'
 require 'date'
 class TownCrier
